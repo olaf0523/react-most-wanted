@@ -44,8 +44,8 @@ const getMenuItems = (props) => {
   const { isAppInstallable, isAppInstalled, deferredPrompt } =
     a2HSContext || {};
 
-  const { auth } = authData || {};
-  const { isAuthGranted = () => false, isAdmin = false } = auth || {};
+  const { auth, isAuthGranted = () => false } = authData || {};
+  const { isAdmin = false } = auth || {};
 
   const localeItems = allLocales.map((l) => {
     return {
@@ -332,7 +332,7 @@ const getMenuItems = (props) => {
           visible: true,
           onClick: () => {
             toggleThisTheme("isRTL");
-            window.location.reload(false);
+            // window.location.reload(false);
           },
           primaryText: `${isRTL ? "LTR" : "RTL"} mode`,
           leftIcon: isRTL ? <LTRIcon /> : <RTLIcon />,

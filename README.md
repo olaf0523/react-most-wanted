@@ -39,7 +39,7 @@ Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infras
 
 Thanks to [GitBook ](https://www.gitbook.com/)for providing us a great documentation tool.
 
-Thanks to Mr.Olaf who always support me.
+Thanks to Mr.Olaf who always support me.haha
 
 ## License
 

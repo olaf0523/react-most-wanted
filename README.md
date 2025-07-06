@@ -14,7 +14,7 @@ The **features** include:
 * Authentication and authorization with roles and permissions
 * Push notifications within App Notifications UI
 * Theming
-* Internationalization
+* Internationalization   
 * Build in CI/CD with [**Travis**](https://travis-ci.org/) and [**Browserstack**](https://www.browserstack.com/) (optional\)
 * Real-time Forms
 * and many more...
